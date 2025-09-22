@@ -1,10 +1,10 @@
 # VCF_for_pixy
 
-VCF file = THRB.bi.vcf.gz
-popmap   = popmap.txt
-bed file = region.n10.bed
+VCF file = THRB.bi.vcf.gz  
+popmap   = popmap.txt  
+bed file = region.n10.bed  
 
-command = 
+command =   
 pixy --vcf $vcf \
         --population $popmap\
         --bed_file $windows_bed\
